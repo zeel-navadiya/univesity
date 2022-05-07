@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Zack</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- font -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+        </nav>
+        <h1>Contact us</h1>
+    </section>
+
+    <!-- Contact us -->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12784.442943884993!2d72.88471893764888!3d21.21623553545286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f1a659ac533%3A0x288d34593e7bc86c!2sVD%20Illustration!5e0!3m2!1sen!2sin!4v1629299135378!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+    </section>
+
+    <section class="contact">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 9081256718</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Abc Road , Xyz Building</h5>
+                        <p>Surat, Gujarat IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>info@zack.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Enter your name">
+                    <input type="text" name="email" placeholder="Enter your email address">
+                    <input type="text" name="subject" placeholder="Enter your subject">
+                    <textarea name="message" id="" cols="30" rows="8" placeholder="Message"></textarea>
+                    <button class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at quo cum et harum, omnis maxime
+            <br>consectetur dolore voluptatum? Similique, cumque doloribus?
+        </p>
+
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+
+        <p>Made With <i class="far fa-heart"></i> by <a href="zack01@gmail.com" target="_blank"
+                class="z-hover-text-green">Zack</a></p>
+    </section>
+
+    <!-- javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
